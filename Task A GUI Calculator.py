@@ -9,7 +9,7 @@ def Calculator(source, side):
 
 def button(source, side, text, command=None):
     storeobj = Button(source, text=text, command=command)
-    storeobj.pack(side=side, expand=YgiES, fill=BOTH)
+    storeobj.pack(side=side, expand=YES, fill=BOTH)
     return storeobj
 
 
