@@ -33,7 +33,7 @@ def run_scanner(threads, mode):
 
     thread_list = []
 
-    for t in range(threads):
+    for thread in range(threads):
         thread = threading.Thread(target=thread_worker)
         thread_list.append(thread)
 
